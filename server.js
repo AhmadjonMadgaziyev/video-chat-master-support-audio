@@ -3,9 +3,10 @@ const express = require('express');
 const app = express();
 let server;
 let port;
-const https = require('https');
-server = https.createServer(credentials, app);
-port = 2002;
+  const http = require('http');
+  server = http.createServer(app);
+  port = 446;
+
 const io = require('socket.io')(server);
 const RoomService = require('./RoomService')(io);
 io.sockets.on('connection', RoomService.listen);
