@@ -5,8 +5,8 @@
   "main": "app.js",
   "author": "Brian Mau",
   "scripts": {
-    "start": "node server.js",
-    "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js"
+    "start": "node app.js",
+    "debug": "node --nolazy --inspect --debug-brk=5858 ./app.js"
   },
   "dependencies": {
     "express": "^4.13.4",
