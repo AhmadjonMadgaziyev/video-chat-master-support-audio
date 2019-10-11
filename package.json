@@ -2,7 +2,7 @@
   "name": "video-chat",
   "version": "1.0.0",
   "description": "Video Chat application.",
-  "main": "server.js",
+  "main": "app.js",
   "author": "Brian Mau",
   "scripts": {
     "start": "node server.js",
